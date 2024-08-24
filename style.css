@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    /* width: 100vh; */
+    background-color: #0a61f7;
+    padding: 14px 0;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 1.1;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #95a1bb;
+    margin-bottom: 40px;
+}
+
+.button {
+    border-radius: 4px;
+    width: 152px;
+    height: 50px;
+    background-color: #0a61f7;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+}
+
+.img {
+    border-radius: 10px 10px 0 0;
+    width: 656px;
+    height: 650px;
+    /* background-color: url("path_to_image");*/
+}
+
+.rates-section {
+    padding-top: 100px 0;
+    background-color: #f9fafc;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.3;
+    color: #363940;
+    /* text-align: center; */
+}
+
+.rates-section .section-title {
+    margin-bottom: 20px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 240px;
+    border: 1px solid #95a1bb;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    line-height: 1.5;
+    color: #363940;
+    padding: 15px 20px 15px 20px;
+}
+
+
+.table-subtitle {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.gray {
+    color: #95a1bb;
+}
+
+.table-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+
+}
+
+.table-footer td {
+    padding: 30px 50px;
+}
+
+.table-button {
+    border: 1px solid #0a61f7;
+    border-radius: 4px;
+    /* НЕ нужно в будущем ширина и высота кнопки */
+    width: 140px;
+    padding: 8px;
+
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0a61f7;
+}
+
+.active {
+    background-color: #0a61f7;
+    color: #fff;
+}
+
+.table-link {
+    color: #0a61f7;
+}
+
+.Create-account-section {
+    padding: 100px 0;
+    /* padding-left: 130px; */
+}
+
+.Create-account-section .section-title {
+    margin-bottom: 50px;
+}
+
+.Create-account-section .text {
+    max-width: 500px;
+    text-align: justify;
+}
+
+.list {
+    list-style-image: url(./assets/images/Check.png);
+}
+
+.list-item {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #363940;
+}
+
+input,
+select,
+fieldset,
+textarea {
+    border: 1px solid #95a1bb;
+    border-radius: 4px;
+    padding: 14px 15px;
+    /* margin-bottom: 20px; */
+}
+
+input,
+select,
+fieldset,
+textarea,
+label,
+legend,
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+    color: #95a1bb;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: inherit;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 230px;
+    height: 50px;
+    /* margin-right: 20px; */
+}
+
+input [type="date"] {}
+
+fieldset,
+textarea {
+    width: 100%;
+}
+
+fieldset {
+    padding: 30px 15px;
+
+}
+
+
+
+textarea {
+    min-height: 80px;
+    resize: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(./assets/images/Calendar.svg) no-repeat;
+}
+
+select{
+    background: url(./assets/images/Arrow-down.svg) no-repeat right 15px top 50%;
+    appearance: none;
+}
+
+.form .button {
+    width: 100%;
+}
+
+footer {
+    background-color: #0a61f7;
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+}
