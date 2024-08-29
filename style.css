@@ -12,10 +12,46 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #95a1bb;
+    margin-bottom: 40px;
+}
+
+
+
 header {
     /* width: 100vh; */
     background-color: #0a61f7;
     padding: 14px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
 }
 
 .menu-link {
@@ -28,6 +64,13 @@ header {
 
 }
 
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+}
+
 h1 {
     font-weight: 500;
     font-size: 58px;
@@ -36,13 +79,10 @@ h1 {
     margin-bottom: 30px;
 }
 
-.text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.3;
-    color: #95a1bb;
-    margin-bottom: 40px;
+.hero-section .text {
+    max-width: 380px;
 }
+
 
 .button {
     border-radius: 4px;
@@ -66,9 +106,19 @@ h1 {
     /* background-color: url("path_to_image");*/
 }
 
+.hero-section .img {
+    align-self: flex-end;
+}
+
 .rates-section {
-    padding-top: 100px 0;
+    padding: 100px 0;
     background-color: #f9fafc;
+}
+
+.rates-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-title {
@@ -151,6 +201,12 @@ td {
     /* padding-left: 130px; */
 }
 
+.account-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .Create-account-section .section-title {
     margin-bottom: 50px;
 }
@@ -171,6 +227,31 @@ td {
     font-size: 16px;
     line-height: 1.3;
     color: #363940;
+}
+
+.form .button {
+    width: 100%;
+
+
+}
+
+.form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stack, fieldset{
+    display: flex;
+    gap: 30px;
+}
+
+.fields-wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    
 }
 
 input,
@@ -209,6 +290,7 @@ input[type="password"],
 select {
     width: 230px;
     height: 50px;
+    flex-grow: 1;
     /* margin-right: 20px; */
 }
 
@@ -235,14 +317,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background: url(./assets/images/Calendar.svg) no-repeat;
 }
 
-select{
+select {
     background: url(./assets/images/Arrow-down.svg) no-repeat right 15px top 50%;
     appearance: none;
 }
 
-.form .button {
-    width: 100%;
-}
+
 
 footer {
     background-color: #0a61f7;
